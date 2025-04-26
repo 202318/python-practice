@@ -1,9 +1,9 @@
-def even_odd_checker(number:
+def even_odd_checker(number):
     if number % 2 ==0:
         return "Even"
-    else
+    else:
         return "Odd"
 
 num = 7
 result = even_odd_checker(num)
-print(n"{num} is {result}")
+print(f"{num} is {result}")
